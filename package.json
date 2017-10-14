@@ -23,8 +23,8 @@
     "url": "git+https://github.com/edu-xored/calendar.git"
   },
   "engines": {
-    "node": "8.4.0",
-    "npm": "5.3.0"
+    "node": "6.11.1",
+    "npm": "4.0.0"
   },
   "keywords": [
     "calendar",
