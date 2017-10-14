@@ -4,6 +4,7 @@
   "description": "Helps to track your team working time with calendars",
   "main": "index.js",
   "scripts": {
+    "postinstall": "npm run build && npm run ldap_start && npm run start",
     "install-tools": "npm i -g typescript tslint mocha cross-env",
     "tsc": "cross-env node_modules/.bin/tsc",
     "webpack:prod": "cross-env NODE_ENV=production node_modules/.bin/webpack --config webpack.config.js",
